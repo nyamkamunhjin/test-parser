@@ -26,5 +26,5 @@ fs.createReadStream('./answers.csv')
   })
   .on('end', () => {
     console.log(results);
-    fs.writeFileSync('answers_parsed.json', JSON.stringify(results));
+    fs.writeFileSync('correct_answers_parsed.json', JSON.stringify(results));
   });
