@@ -10,7 +10,7 @@ const parseQuestions = async (callback) => {
     const questions = [];
     const options = [];
     let question_id;
-    let answer_id = 0;
+    let answer_id = 1;
     let alphabetIndex = 0;
 
     lineReader.on("line", (line) => {
